@@ -1,0 +1,14 @@
+C:\Users\DIDIN\Projects\AspNetAngular\bin\Debug\netcoreapp2.1\AspNetAngular.deps.json
+C:\Users\DIDIN\Projects\AspNetAngular\bin\Debug\netcoreapp2.1\AspNetAngular.runtimeconfig.json
+C:\Users\DIDIN\Projects\AspNetAngular\bin\Debug\netcoreapp2.1\AspNetAngular.runtimeconfig.dev.json
+C:\Users\DIDIN\Projects\AspNetAngular\bin\Debug\netcoreapp2.1\AspNetAngular.dll
+C:\Users\DIDIN\Projects\AspNetAngular\bin\Debug\netcoreapp2.1\AspNetAngular.pdb
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.csprojAssemblyReference.cache
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.csproj.CoreCompileInputs.cache
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.RazorAssemblyInfo.cache
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.RazorAssemblyInfo.cs
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.AssemblyInfoInputs.cache
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.AssemblyInfo.cs
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.RazorTargetAssemblyInfo.cache
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.dll
+C:\Users\DIDIN\Projects\AspNetAngular\obj\Debug\netcoreapp2.1\AspNetAngular.pdb

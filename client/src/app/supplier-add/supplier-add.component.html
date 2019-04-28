@@ -1,0 +1,63 @@
+<div class="example-container mat-elevation-z8">
+  <div class="example-loading-shade"
+       *ngIf="isLoadingResults">
+    <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+  </div>
+  <div class="button-row">
+    <a mat-flat-button color="primary" [routerLink]="['/supplier']"><mat-icon>list</mat-icon></a>
+  </div>
+  <mat-card class="example-card">
+    <form [formGroup]="supplierForm" (ngSubmit)="onFormSubmit(supplierForm.value)">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Company Name" formControlName="companyName"
+               [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!supplierForm.get('companyName').valid && supplierForm.get('companyName').touched">Please enter Company Name</span>
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Contact Name" formControlName="contactName"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Contact Title" formControlName="contactTitle"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Address" formControlName="address"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="City" formControlName="city"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Region" formControlName="region"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Postal Code" formControlName="postalCode"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Country" formControlName="country"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Phone" formControlName="phone"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Fax" formControlName="fax"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Home Page" formControlName="homePage"
+               [errorStateMatcher]="matcher">
+      </mat-form-field>
+      <div class="button-row">
+        <button type="submit" [disabled]="!supplierForm.valid" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
+      </div>
+    </form>
+  </mat-card>
+</div>
